@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="to do list">
+        <meta name="author" content="Hema Priya V">
+        <title>To-Do List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <div class="background-shapes">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+            <div class="circle circle4"></div>
+            <div class="circle circle5"></div>
+          </div>
+
+        <div class="todo-container">
+            <h1>To - Do List App</h1>
+            <div class="input-section">
+                <h2>Task Name</h2>
+                <input type="text" id="task-input" placeholder="What do you want to do today?">
+                <h2>Timing (Optional)</h2>
+                <input type="time" id="task-time" min="00:00" max="23:59">
+                <button id="add-task-btn">Add</button>
+            </div>
+            <div class="task-list-wrapper">
+                <ul id="task-list">
+                </ul>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
